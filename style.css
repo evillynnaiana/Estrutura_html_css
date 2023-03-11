@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  min-height: 100px;
+  width: 100%;
+  background-color: rgba(137, 43, 226, 0.293);
+}
+.menu,
+.rodape {
+  min-height: 30px;
+  width: 100%;
+  background-color: rgb(127, 137, 137);
+}
+.pai {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(249, 249, 249);
+  gap: 30px;
+  margin: 20px 0px 20px 0px;
+}
+.filho1 {
+  min-height: 80vh;
+  width: 60%;
+  background-color: rgba(137, 43, 226, 0.293);
+}
+.filho2 {
+  min-height: 80vh;
+  width: 40%;
+  background-color: rgba(137, 43, 226, 0.293);
+}
+.container {
+  margin: 0 auto;
+  width: 900px;
+  font-size: 3vmin;
+}
